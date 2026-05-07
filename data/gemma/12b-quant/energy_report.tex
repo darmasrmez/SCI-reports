@@ -1,0 +1,62 @@
+% Auto-generated energy report for bio-gemma-3-12b-quant
+% Source CSV: /Users/darmasrmz/Documents/SCI-score/data/gemma/12b-quant/biogemma\_3\_12b\_quant\_logs.csv
+% Required packages: booktabs, siunitx
+
+\begin{table}[htbp]
+  \centering
+  \caption{Run summary for \texttt{bio-gemma-3-12b-quant}.}
+  \label{tab:energy:summary}
+  \begin{tabular}{ll}
+    \toprule
+    Field & Value \\
+    \midrule
+    Run ID & \texttt{a7675576-ff88-4c97-8242-3bc81df2a7d8} \\
+    Experiment ID & \texttt{5b0fa12a-3dd7-45bb-9766-cc326314d9f1} \\
+    Start & 2026-05-01T19:03:51 \\
+    End & 2026-05-01T23:13:50 \\
+    Samples & \num{1873} \\
+    Duration & 04:09:59 (\SI{4.166}{\hour}) \\
+    Energy consumed & \SI{1.427529}{\kilo\watt\hour} \\
+    CO\textsubscript{2} emissions & \SI{0.526950}{\kilo\gram} \\
+    Water consumed & \SI{0.000000}{\liter} \\
+    Average power & \SI{342.63}{\watt} \\
+    CPU & AMD EPYC 7J13 64-Core Processor ($\times$30) \\
+    GPU & 1 x NVIDIA A100-SXM4-40GB ($\times$1) \\
+    RAM & \SI{216.26}{\giga\byte} \\
+    Location & virginia, United States \\
+    PUE / WUE & 1.000 / 0.000 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+  \centering
+  \caption{Per-device energy and power statistics for \texttt{bio-gemma-3-12b-quant}.}
+  \label{tab:energy:devices}
+  \begin{tabular}{l S[table-format=1.4] S[table-format=2.2] S[table-format=3.2] S[table-format=3.2] S[table-format=3.2] S[table-format=3.2] S[table-format=3.2]}
+    \toprule
+    Device & {Energy (\si{\kilo\watt\hour})} & {Share (\%)} & {Mean P (\si{\watt})} & {Max P (\si{\watt})} & {Min P (\si{\watt})} & {Mean U (\%)} & {Max U (\%)} \\
+    \midrule
+    CPU & 0.6744 & 47.24 & 163.25 & 617.24 & 139.05 & 3.88 & 18.66 \\
+    GPU & 0.7121 & 49.88 & 171.74 & 174.78 & 47.81 & 49.98 & 51.09 \\
+    RAM & 0.0410 & 2.87 & 10.03 & 12.81 & 10.00 & 8.39 & 8.40 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+  \centering
+  \caption{Per-phase energy and mean power for \texttt{bio-gemma-3-12b-quant}.}
+  \label{tab:energy:phases}
+  \begin{tabular}{l l S[table-format=4.0] S[table-format=1.4] S[table-format=1.4] S[table-format=1.4] S[table-format=3.2] S[table-format=3.2] S[table-format=3.2]}
+    \toprule
+    & & & \multicolumn{3}{c}{Energy (\si{\kilo\watt\hour})} & \multicolumn{3}{c}{Mean power (\si{\watt})} \\
+    \cmidrule(lr){4-6} \cmidrule(lr){7-9}
+    Phase & Duration & {Samples} & {CPU} & {GPU} & {RAM} & {CPU} & {GPU} & {RAM} \\
+    \midrule
+    load\_model & 00:00:52 & 7 & 0.0061 & 0.0008 & 0.0002 & 481.07 & 51.73 & 11.45 \\
+    fine\_tuning & 04:09:00 & 1865 & 0.6683 & 0.7113 & 0.0408 & 162.05 & 172.19 & 10.03 \\
+    idle & 00:00:00 & 1 & 0.0000 & 0.0000 & 0.0000 & 163.51 & 171.49 & 10.01 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

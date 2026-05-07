@@ -1,0 +1,140 @@
+{
+  "source_csv": "/Users/darmasrmz/Documents/SCI-score/data/llama/8b-lora/bio-llama-3-8b-lora_logs.csv",
+  "run": {
+    "project_name": "bio-llama-3-8b-lora",
+    "run_id": "850ea04f-ddf3-4101-913f-2da2638528fa",
+    "experiment_id": "5b0fa12a-3dd7-45bb-9766-cc326314d9f1",
+    "start": "2026-05-04T23:16:31",
+    "end": "2026-05-05T00:39:25",
+    "samples": 623
+  },
+  "duration": {
+    "seconds": 4974.0,
+    "hours": 1.3816666666666666,
+    "hms": "01:22:54"
+  },
+  "totals": {
+    "energy_consumed_kwh": 0.48213197753959947,
+    "emissions_kg_co2": 0.1779714875903123,
+    "water_consumed_l": 0.0,
+    "average_power_w": 348.94956154856413,
+    "energy_share_percent": {
+      "cpu": 47.67777003190918,
+      "gpu": 49.50439197470627,
+      "ram": 2.8178379933844533
+    }
+  },
+  "hardware": {
+    "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+    "cpu_count": "30",
+    "gpu_model": "1 x NVIDIA A100-SXM4-40GB",
+    "gpu_count": "1",
+    "ram_total_gb": 216.25842666625977
+  },
+  "environment": {
+    "country": "United States",
+    "region": "virginia",
+    "cloud_provider": null,
+    "cloud_region": null,
+    "on_cloud": "N",
+    "pue": 1.0,
+    "wue": 0.0,
+    "os": "Linux-6.8.0-60-generic-x86_64-with-glibc2.39",
+    "python_version": "3.13.7",
+    "codecarbon_version": "3.2.6"
+  },
+  "devices": {
+    "cpu": {
+      "power_w": {
+        "mean": 170.8021999183295,
+        "max": 688.5741901324633,
+        "min": 158.0895995079349,
+        "std": 34.87755260250638
+      },
+      "energy_kwh": 0.2298697755016263,
+      "utilization_percent": {
+        "mean": 3.9113503786045367,
+        "max": 14.45625,
+        "min": 3.7076180904522618
+      }
+    },
+    "gpu": {
+      "power_w": {
+        "mean": 165.23217785625135,
+        "max": 173.17409902376312,
+        "min": 50.92689399792948,
+        "std": 14.359881217988098
+      },
+      "energy_kwh": 0.23867650399660612,
+      "utilization_percent": {
+        "mean": 50.798561864910916,
+        "max": 54.24482412060301,
+        "min": 0.0
+      }
+    },
+    "ram": {
+      "power_w": {
+        "mean": 10.0,
+        "max": 10.0,
+        "min": 10.0,
+        "std": 0.0
+      },
+      "energy_kwh": 0.013585698041366633,
+      "utilization_percent": {
+        "mean": 7.243732626184068,
+        "max": 7.618055555555555,
+        "min": 6.9875
+      }
+    }
+  },
+  "phases": [
+    {
+      "phase": "load_model",
+      "samples": 2,
+      "duration_seconds": 8.0,
+      "duration_hms": "00:00:08",
+      "energy_kwh": {
+        "cpu": 0.0012218997401998001,
+        "gpu": 0.00011369231317600001,
+        "ram": 2.2018106608333216e-05
+      },
+      "mean_power_w": {
+        "cpu": 654.1402490043338,
+        "gpu": 51.00861335362052,
+        "ram": 10.0
+      }
+    },
+    {
+      "phase": "idle",
+      "samples": 5,
+      "duration_seconds": 16.0,
+      "duration_hms": "00:00:16",
+      "energy_kwh": {
+        "cpu": 0.001625593583067898,
+        "gpu": 0.0008111067599960021,
+        "ram": 8.426898448890011e-05
+      },
+      "mean_power_w": {
+        "cpu": 311.90565684572084,
+        "gpu": 100.11049901239157,
+        "ram": 10.0
+      }
+    },
+    {
+      "phase": "fine_tuning",
+      "samples": 616,
+      "duration_seconds": 4927.0,
+      "duration_hms": "01:22:07",
+      "energy_kwh": {
+        "cpu": 0.2270222821783586,
+        "gpu": 0.23775170492343412,
+        "ram": 0.0134794109502694
+      },
+      "mean_power_w": {
+        "cpu": 168.08760027091233,
+        "gpu": 166.1316186407068,
+        "ram": 10.0
+      }
+    }
+  ]
+}

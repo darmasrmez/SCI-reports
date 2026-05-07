@@ -1,0 +1,156 @@
+{
+  "source_csv": "/Users/darmasrmz/Documents/SCI-score/data/llama/8b-qlora/bio-llama-3-8b-qlora_logs.csv",
+  "run": {
+    "project_name": "bio-llama-3-8b-qlora",
+    "run_id": "6392e0a2-cdc6-43dd-bff8-18991d860e54",
+    "experiment_id": "5b0fa12a-3dd7-45bb-9766-cc326314d9f1",
+    "start": "2026-05-03T20:16:39",
+    "end": "2026-05-03T23:31:26",
+    "samples": 1458
+  },
+  "duration": {
+    "seconds": 11687.0,
+    "hours": 3.2463888888888888,
+    "hms": "03:14:47"
+  },
+  "totals": {
+    "energy_consumed_kwh": 0.5503679634485538,
+    "emissions_kg_co2": 0.2366582242828782,
+    "water_consumed_l": 0.0,
+    "average_power_w": 169.5323580401124,
+    "energy_share_percent": {
+      "cpu": 3.0069137108380026,
+      "gpu": 91.25348360335231,
+      "ram": 5.739602685810384
+    }
+  },
+  "hardware": {
+    "cpu_model": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+    "cpu_count": "12",
+    "gpu_model": "1 x NVIDIA A100-SXM4-80GB",
+    "gpu_count": "1",
+    "ram_total_gb": 167.04280471801758
+  },
+  "environment": {
+    "country": "USA",
+    "region": "Iowa",
+    "cloud_provider": "gcp",
+    "cloud_region": "us-central1",
+    "on_cloud": "Y",
+    "pue": 1.0,
+    "wue": 0.0,
+    "os": "Linux-6.8.0-1007-gcp-x86_64-with-glibc2.39",
+    "python_version": "3.12.11",
+    "codecarbon_version": "3.2.6"
+  },
+  "devices": {
+    "cpu": {
+      "power_w": {
+        "mean": 5.0905410199161105,
+        "max": 8.768348406163684,
+        "min": 4.259057647862213,
+        "std": 0.2105748507093564
+      },
+      "energy_kwh": 0.01654908975299445,
+      "utilization_percent": {
+        "mean": 9.712524685451575,
+        "max": 19.341666666666665,
+        "min": 8.55
+      }
+    },
+    "gpu": {
+      "power_w": {
+        "mean": 157.25336928316852,
+        "max": 160.39013228740922,
+        "min": 61.10501310824824,
+        "std": 9.501728576928238
+      },
+      "energy_kwh": 0.50222993928363,
+      "utilization_percent": {
+        "mean": 40.73196344421488,
+        "max": 42.27791129560848,
+        "min": 0.75
+      }
+    },
+    "ram": {
+      "power_w": {
+        "mean": 10.04192304246517,
+        "max": 12.5,
+        "min": 10.0,
+        "std": 0.1347248166447965
+      },
+      "energy_kwh": 0.031588934411933105,
+      "utilization_percent": {
+        "mean": 6.700217965562623,
+        "max": 6.721326445899824,
+        "min": 5.4
+      }
+    }
+  },
+  "phases": [
+    {
+      "phase": "load_model",
+      "samples": 3,
+      "duration_seconds": 16.0,
+      "duration_hms": "00:00:16",
+      "energy_kwh": {
+        "cpu": 4.8747406033903534e-05,
+        "gpu": 0.00027587799848,
+        "ram": 4.961520390555607e-05
+      },
+      "mean_power_w": {
+        "cpu": 6.706445250266584,
+        "gpu": 61.53253102839583,
+        "ram": 10.277777777777779
+      }
+    },
+    {
+      "phase": "dataset",
+      "samples": 1,
+      "duration_seconds": 0.0,
+      "duration_hms": "00:00:00",
+      "energy_kwh": {
+        "cpu": 1.5850682734450476e-05,
+        "gpu": 0.00013630149793,
+        "ram": 3.8581459719444115e-05
+      },
+      "mean_power_w": {
+        "cpu": 8.368391380111355,
+        "gpu": 61.74479654937715,
+        "ram": 12.5
+      }
+    },
+    {
+      "phase": "idle",
+      "samples": 4,
+      "duration_seconds": 16.0,
+      "duration_hms": "00:00:16",
+      "energy_kwh": {
+        "cpu": 4.872279954229767e-05,
+        "gpu": 0.0005371537630559539,
+        "ram": 7.574893901940438e-05
+      },
+      "mean_power_w": {
+        "cpu": 6.835311732898775,
+        "gpu": 84.98662295696504,
+        "ram": 11.27552449551249
+      }
+    },
+    {
+      "phase": "fine_tuning",
+      "samples": 1450,
+      "duration_seconds": 11625.0,
+      "duration_hms": "03:13:45",
+      "energy_kwh": {
+        "cpu": 0.0164357688646838,
+        "gpu": 0.5012806060241641,
+        "ram": 0.0314249888092887
+      },
+      "mean_power_w": {
+        "cpu": 5.080124022741506,
+        "gpu": 157.71663691958432,
+        "ram": 10.03633680317161
+      }
+    }
+  ]
+}

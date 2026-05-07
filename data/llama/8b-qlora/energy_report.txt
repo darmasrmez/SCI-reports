@@ -1,0 +1,51 @@
+==============================================================================
+ENERGY CONSUMPTION REPORT - bio-llama-3-8b-qlora
+==============================================================================
+Run ID         : 6392e0a2-cdc6-43dd-bff8-18991d860e54
+Experiment ID  : 5b0fa12a-3dd7-45bb-9766-cc326314d9f1
+Window         : 2026-05-03T20:16:39  ->  2026-05-03T23:31:26
+Samples        : 1458
+Duration       : 03:14:47  (3.246 h, 11687.0 s)
+
+-- Totals --
+  Energy consumed : 0.550368 kWh
+  CO2 emissions   : 0.236658 kg
+  Water consumed  : 0.000000 L
+  Avg total power : 169.53 W
+
+-- Hardware --
+  CPU  : Intel(R) Xeon(R) CPU @ 2.20GHz  (count=12)
+  GPU  : 1 x NVIDIA A100-SXM4-80GB  (count=1)
+  RAM  : 167.04 GB
+
+-- Environment --
+  Location : Iowa, USA
+  Cloud    : gcp/us-central1  (on_cloud=Y)
+  PUE / WUE: 1.0 / 0.0
+
+-- Per-device breakdown --
+  device  energy(kWh)  share(%)  mean P(W)   max P(W)   min P(W)  mean U(%)  max U(%)
+  -----------------------------------------------------------------------------------
+  CPU        0.016549      3.01       5.09       8.77       4.26       9.71     19.34
+  GPU        0.502230     91.25     157.25     160.39      61.11      40.73     42.28
+  RAM        0.031589      5.74      10.04      12.50      10.00       6.70      6.72
+
+-- Per-phase breakdown --
+  [load_model]  duration=00:00:16  samples=3
+      CPU  energy=    0.000049 kWh   mean power=    6.71 W
+      GPU  energy=    0.000276 kWh   mean power=   61.53 W
+      RAM  energy=    0.000050 kWh   mean power=   10.28 W
+  [dataset]  duration=00:00:00  samples=1
+      CPU  energy=    0.000016 kWh   mean power=    8.37 W
+      GPU  energy=    0.000136 kWh   mean power=   61.74 W
+      RAM  energy=    0.000039 kWh   mean power=   12.50 W
+  [idle]  duration=00:00:16  samples=4
+      CPU  energy=    0.000049 kWh   mean power=    6.84 W
+      GPU  energy=    0.000537 kWh   mean power=   84.99 W
+      RAM  energy=    0.000076 kWh   mean power=   11.28 W
+  [fine_tuning]  duration=03:13:45  samples=1450
+      CPU  energy=    0.016436 kWh   mean power=    5.08 W
+      GPU  energy=    0.501281 kWh   mean power=  157.72 W
+      RAM  energy=    0.031425 kWh   mean power=   10.04 W
+
+==============================================================================

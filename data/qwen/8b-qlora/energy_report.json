@@ -1,0 +1,140 @@
+{
+  "source_csv": "/Users/darmasrmz/Documents/SCI-score/data/qwen/8b-qlora/bio-qwen-3-8b-qlora_logs.csv",
+  "run": {
+    "project_name": "bio-qwen-3-8b-qlora",
+    "run_id": "b3e63012-d5d4-43b7-9325-0ba0f55fa031",
+    "experiment_id": "5b0fa12a-3dd7-45bb-9766-cc326314d9f1",
+    "start": "2026-05-04T03:31:25",
+    "end": "2026-05-04T06:57:32",
+    "samples": 1381
+  },
+  "duration": {
+    "seconds": 12367.0,
+    "hours": 3.435277777777778,
+    "hms": "03:26:07"
+  },
+  "totals": {
+    "energy_consumed_kwh": 0.5305907601475701,
+    "emissions_kg_co2": 0.22815066116797125,
+    "water_consumed_l": 0.0,
+    "average_power_w": 154.45352442235404,
+    "energy_share_percent": {
+      "cpu": 2.8292863511029713,
+      "gpu": 91.53874574725732,
+      "ram": 5.631967901640306
+    }
+  },
+  "hardware": {
+    "cpu_model": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+    "cpu_count": "12",
+    "gpu_model": "1 x NVIDIA A100-SXM4-80GB",
+    "gpu_count": "1",
+    "ram_total_gb": 167.04280471801758
+  },
+  "environment": {
+    "country": "USA",
+    "region": "Iowa",
+    "cloud_provider": "gcp",
+    "cloud_region": "us-central1",
+    "on_cloud": "Y",
+    "pue": 1.0,
+    "wue": 0.0,
+    "os": "Linux-6.8.0-1007-gcp-x86_64-with-glibc2.39",
+    "python_version": "3.13.7",
+    "codecarbon_version": "3.2.6"
+  },
+  "devices": {
+    "cpu": {
+      "power_w": {
+        "mean": 4.995782052789197,
+        "max": 12.549702828342868,
+        "min": 1.7577734712633768,
+        "std": 0.5610040557914414
+      },
+      "energy_kwh": 0.015011931957068705,
+      "utilization_percent": {
+        "mean": 9.359886198813255,
+        "max": 26.75357142857143,
+        "min": 0.95
+      }
+    },
+    "gpu": {
+      "power_w": {
+        "mean": 154.29193234296633,
+        "max": 160.41630755051335,
+        "min": 50.15557757901694,
+        "std": 13.221966684900702
+      },
+      "energy_kwh": 0.48569612688992414,
+      "utilization_percent": {
+        "mean": 37.49359509965816,
+        "max": 39.54032258064516,
+        "min": 0.0
+      }
+    },
+    "ram": {
+      "power_w": {
+        "mean": 10.007056926107671,
+        "max": 11.875,
+        "min": 10.0,
+        "std": 0.05425911481675207
+      },
+      "energy_kwh": 0.029882701300580454,
+      "utilization_percent": {
+        "mean": 8.552911445308524,
+        "max": 9.463888888888889,
+        "min": 7.525
+      }
+    }
+  },
+  "phases": [
+    {
+      "phase": "load_model",
+      "samples": 17,
+      "duration_seconds": 1431.0,
+      "duration_hms": "00:23:51",
+      "energy_kwh": {
+        "cpu": 0.00022380865715897227,
+        "gpu": 0.0016600768836161001,
+        "ram": 0.00028631885175823207
+      },
+      "mean_power_w": {
+        "cpu": 7.2546137510567705,
+        "gpu": 58.18263599596602,
+        "ram": 10.0
+      }
+    },
+    {
+      "phase": "idle",
+      "samples": 4,
+      "duration_seconds": 15.0,
+      "duration_hms": "00:00:15",
+      "energy_kwh": {
+        "cpu": 3.760746733742044e-05,
+        "gpu": 0.0005497129397699376,
+        "ram": 9.919243494713032e-05
+      },
+      "mean_power_w": {
+        "cpu": 4.662281504766173,
+        "gpu": 80.16215645830577,
+        "ram": 10.65127070926859
+      }
+    },
+    {
+      "phase": "fine_tuning",
+      "samples": 1360,
+      "duration_seconds": 10900.0,
+      "duration_hms": "03:01:40",
+      "energy_kwh": {
+        "cpu": 0.014971010547528486,
+        "gpu": 0.48514432867070806,
+        "ram": 0.029781907494836102
+      },
+      "mean_power_w": {
+        "cpu": 4.968527540525626,
+        "gpu": 155.71132729990578,
+        "ram": 10.005250391262956
+      }
+    }
+  ]
+}
