@@ -8,10 +8,10 @@ Samples        : 1458
 Duration       : 03:14:47  (3.246 h, 11687.0 s)
 
 -- Totals --
-  Energy consumed : 0.550368 kWh
-  CO2 emissions   : 0.236658 kg
+  Energy consumed : 0.550560 kWh
+  CO2 emissions   : 0.236741 kg
   Water consumed  : 0.000000 L
-  Avg total power : 169.53 W
+  Avg total power : 169.59 W
 
 -- Hardware --
   CPU  : Intel(R) Xeon(R) CPU @ 2.20GHz  (count=12)
@@ -26,9 +26,9 @@ Duration       : 03:14:47  (3.246 h, 11687.0 s)
 -- Per-device breakdown --
   device  energy(kWh)  share(%)  mean P(W)   max P(W)   min P(W)  mean U(%)  max U(%)
   -----------------------------------------------------------------------------------
-  CPU        0.016549      3.01       5.09       8.77       4.26       9.71     19.34
-  GPU        0.502230     91.25     157.25     160.39      61.11      40.73     42.28
-  RAM        0.031589      5.74      10.04      12.50      10.00       6.70      6.72
+  CPU        0.016557      3.01       5.09       8.77       4.26       9.71     19.34
+  GPU        0.502390     91.25     157.25     160.39      61.11      40.73     42.28
+  RAM        0.031612      5.74      10.04      12.50      10.00       6.70      6.72
 
 -- Per-phase breakdown --
   [load_model]  duration=00:00:16  samples=3

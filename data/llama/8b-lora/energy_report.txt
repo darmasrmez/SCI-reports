@@ -8,10 +8,10 @@ Samples        : 623
 Duration       : 01:22:54  (1.382 h, 4974.0 s)
 
 -- Totals --
-  Energy consumed : 0.482132 kWh
-  CO2 emissions   : 0.177971 kg
+  Energy consumed : 0.483806 kWh
+  CO2 emissions   : 0.178589 kg
   Water consumed  : 0.000000 L
-  Avg total power : 348.95 W
+  Avg total power : 350.16 W
 
 -- Hardware --
   CPU  : AMD EPYC 7J13 64-Core Processor  (count=30)
@@ -26,9 +26,9 @@ Duration       : 01:22:54  (1.382 h, 4974.0 s)
 -- Per-device breakdown --
   device  energy(kWh)  share(%)  mean P(W)   max P(W)   min P(W)  mean U(%)  max U(%)
   -----------------------------------------------------------------------------------
-  CPU        0.229870     47.68     170.80     688.57     158.09       3.91     14.46
-  GPU        0.238677     49.50     165.23     173.17      50.93      50.80     54.24
-  RAM        0.013586      2.82      10.00      10.00      10.00       7.24      7.62
+  CPU        0.231399     47.83     170.80     688.57     158.09       3.91     14.46
+  GPU        0.238797     49.36     165.23     173.17      50.93      50.80     54.24
+  RAM        0.013609      2.81      10.00      10.00      10.00       7.24      7.62
 
 -- Per-phase breakdown --
   [load_model]  duration=00:00:08  samples=2

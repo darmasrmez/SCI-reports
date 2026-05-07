@@ -27,10 +27,10 @@ def model_paths(slug: str, log_stem: str) -> dict[str, Path]:
 
 
 if __name__ == "__main__":
-    MODEL_NAME = "Gemma 3 12B quantized"
-    MODEL_SLUG = "gemma/12b-quant"
-    LOG_STEM = "biogemma_3_12b_quant_logs"
-    TEX_PATH = "../../paper/reports/gemma/12b-quant.tex"
+    MODEL_NAME = "gpt-oss 20B quantized"
+    MODEL_SLUG = "gpt-oss/20b-unsloth"
+    LOG_STEM = "bio_gpt_oss_20b_quant_logs"
+    TEX_PATH = "../../paper/reports/gpt-oss/20b-unsloth.tex"
 
     paths = model_paths(MODEL_SLUG, LOG_STEM)
 
