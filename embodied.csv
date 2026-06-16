@@ -1,0 +1,7 @@
+device,total_embodied,lifespan_years,cores_per_device
+NVIDIA A100-SXM4-40GB, 150, 6, 1
+AMD EPYC 7J13 64-Core Processor, 200, 6, 64
+AMD EPYC 9374F 32-Core Processor, 250, 4, 32
+AMD Instinct MI210, 210, 4.5, 2
+Intel(R) Xeon(R) CPU @ 2.20GHz, 200, 5, 18
+NVIDIA A100-SXM4-80GB, 180, 6, 1

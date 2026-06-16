@@ -1,0 +1,13 @@
+project_name,sci_score
+bio-gpt-oss-20b-quant,189.50912381000504
+bio-gemma-3-12b-qlora,356.66139302764145
+bio-gemma-3-12b-quant,406.1042686669152
+bio-ministral-3-14b-qlora,264.993742204347
+bio-ministral-3-14b-lora,117.21450535213617
+bio-qwen-3-14b-fa-lora,134.7800882490678
+bio-qwen-3-8b-lora,222.87050953760553
+bio-qwen-3-14b-sdpa-lora,164.48522777184752
+bio-qwen-3-8b-qlora,359.79124504768174
+bio-mistral-7b,99.86006396253678
+bio-llama-3-8b-lora,137.15920267730792
+bio-llama-3-8b-qlora,373.3651020857218

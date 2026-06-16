@@ -1,0 +1,47 @@
+==============================================================================
+ENERGY CONSUMPTION REPORT - bio-mistral-7b
+==============================================================================
+Run ID         : 11abb878-cf90-4c5f-9a16-53d9fd9ac217
+Experiment ID  : 5b0fa12a-3dd7-45bb-9766-cc326314d9f1
+Window         : 2026-05-08T19:14:22  ->  2026-05-08T20:13:27
+Samples        : 444
+Duration       : 00:59:05  (0.985 h, 3545.0 s)
+
+-- Totals --
+  Energy consumed : 0.353728 kWh
+  CO2 emissions   : 0.130573 kg
+  Water consumed  : 0.000000 L
+  Avg total power : 359.22 W
+
+-- Hardware --
+  CPU  : AMD EPYC 7J13 64-Core Processor  (count=30)
+  GPU  : 1 x NVIDIA A100-SXM4-40GB  (count=1)
+  RAM  : 216.26 GB
+
+-- Environment --
+  Location : virginia, United States
+  Cloud    : n/a  (on_cloud=N)
+  PUE / WUE: 1.0 / 0.0
+
+-- Per-device breakdown --
+  device  energy(kWh)  share(%)  mean P(W)   max P(W)   min P(W)  mean U(%)  max U(%)
+  -----------------------------------------------------------------------------------
+  CPU        0.041753     11.80      42.50      42.50      42.50       4.82     23.72
+  GPU        0.302282     85.46     290.90     307.71      73.97      82.19     87.50
+  RAM        0.009694      2.74      10.10      12.19      10.00       5.40      7.53
+
+-- Per-phase breakdown --
+  [load_model]  duration=00:00:32  samples=5
+      CPU  energy=    0.000378 kWh   mean power=   42.50 W
+      GPU  energy=    0.000666 kWh   mean power=   74.47 W
+      RAM  energy=    0.000106 kWh   mean power=   11.04 W
+  [fine_tuning]  duration=00:58:20  samples=438
+      CPU  energy=    0.041242 kWh   mean power=   42.50 W
+      GPU  energy=    0.301127 kWh   mean power=  293.33 W
+      RAM  energy=    0.009557 kWh   mean power=   10.09 W
+  [idle]  duration=00:00:00  samples=1
+      CPU  energy=    0.000039 kWh   mean power=   42.50 W
+      GPU  energy=    0.000325 kWh   mean power=  307.71 W
+      RAM  energy=    0.000009 kWh   mean power=   10.02 W
+
+==============================================================================

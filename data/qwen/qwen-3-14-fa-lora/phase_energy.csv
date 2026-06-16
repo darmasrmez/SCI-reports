@@ -1,0 +1,4 @@
+timestamp,phase,energy
+2026-05-11T16:00:29.045276+00:00,dataset,Measurement(time=1.2584643363952637, gpu_energy={0: 105.77999999999884}, cpu_energy=None, dram_energy=None, soc_energy=None)
+2026-05-11T16:00:52.002288+00:00,load_model,Measurement(time=32.46193480491638, gpu_energy={0: 2386.921000000002}, cpu_energy=None, dram_energy=None, soc_energy=None)
+2026-05-11T17:51:40.682030+00:00,fine_tuning,Measurement(time=6648.676885843277, gpu_energy={0: 1324470.115}, cpu_energy=None, dram_energy=None, soc_energy=None)
