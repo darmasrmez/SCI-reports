@@ -98,10 +98,6 @@ if __name__ == "__main__":
 
         duration_h = duration_s / 3600
 
-        # print("CPU model: ", cpu_model)
-        # print("GPU model: ", gpu_model)
-        # print("cpu count: ", cpu_count)
-        # print("gpu count: ", gpu_count)
 
         cpu_embodied = (hardware_info["total_embodied"].loc[hardware_info["device"] == cpu_model].values[0])*1000
         gpu_embodied = (hardware_info["total_embodied"].loc[hardware_info["device"] == gpu_model].values[0])*1000*gpu_count
@@ -124,7 +120,11 @@ if __name__ == "__main__":
 
         total_embodied = embodied_cpu + embodied_gpu + embodied_ram
 
-        sci_total = sci_score(operational_emissions, total_embodied)
+        sci_cpu = sci_score(operational_emissions, embodied_cpu)
+        sci_gpu = sci_score(operational_emissions, embodied_gpu)
+        sci_ram = sci_score(operational_emissions, embodied_ram)
+
+        sci_total = sci_cpu + sci_gpu + sci_ram
 
         print(f"SCI score: {sci_total}")
 
